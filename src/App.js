@@ -10,7 +10,7 @@ function App() {
       <header className="app-header">
         <div className="logo-title-container">
           <img src={newlogo} alt="Kaia Logo" className="app-logo" />
-          <h1>Kaia Key Manager</h1>
+          <h1>Kaia PrivateKey Changer</h1>
         </div>
         <p>Easily update your Kaia wallet's private key securely.</p>
       </header>
