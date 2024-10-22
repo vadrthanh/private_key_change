@@ -1,6 +1,6 @@
 {
   "name": "private-key-tool",
-  "homepage": "https://vadrthanh.github.io/private_key_change",
+  "homepage": "https://changekaiakey.netlify.app/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
