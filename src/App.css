@@ -1,0 +1,147 @@
+/* General App Container Styling */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #f4f4f4;
+  font-family: 'Arial', sans-serif;
+  color: #333;
+}
+
+/* Header Styling */
+.app-header {
+  text-align: center;
+  background-color: #ffffff;
+  color: #333;
+  padding: 40px 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.app-header h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+  color: #4CAF50; /* Green accent color */
+}
+
+.app-header p {
+  margin-top: 10px;
+  font-size: 18px;
+  color: #666;
+}
+
+/* Main Content Section */
+.app-content {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+/* Footer Styling */
+.app-footer {
+  text-align: center;
+  background-color: #ffffff;
+  padding: 20px 0;
+  box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.app-footer p {
+  margin: 0;
+  font-size: 14px;
+  color: #999;
+}
+
+/* ChangeKeyApp Component Styling */
+.app-container .output-box {
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin: 20px 0;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.app-container input[type="text"],
+.app-container input[type="password"] {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  margin-top: 10px;
+  transition: border-color 0.3s ease;
+}
+
+.app-container input[type="text"]:focus,
+.app-container input[type="password"]:focus {
+  border-color: #4CAF50;
+  outline: none;
+}
+
+/* Button Styling */
+button {
+  display: inline-block;
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.copy-button {
+  background-color: #2196F3;
+}
+
+.copy-button:hover {
+  background-color: #1E88E5;
+}
+
+.toggle-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  margin-left: 10px;
+  color: #666;
+}
+
+/* Status Styling */
+p.status {
+  font-size: 16px;
+  color: #4CAF50;
+}
+
+p.error {
+  color: #f44336;
+  font-size: 16px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .app-container {
+    padding: 0 10px;
+  }
+
+  .app-header h1 {
+    font-size: 28px;
+  }
+
+  .app-content {
+    padding: 10px;
+  }
+
+  input[type="text"],
+  button {
+    font-size: 14px;
+    padding: 10px;
+  }
+}
